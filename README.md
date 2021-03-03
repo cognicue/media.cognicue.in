@@ -1,3 +1,3 @@
-# CogniCue - Converting Emotions into Analytics
+# CogniCue Media Service
 
-This repo hosts the media for [www.cognicue.in](https://www.cognicue.in/) on the `master` branch
+CogniCue media [repository](https://github.com/cognicue/media.cognicue.in) for [www.cognicue.in](https://www.cognicue.in/) on the `master` branch
