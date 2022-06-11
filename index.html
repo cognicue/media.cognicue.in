@@ -1,3 +1,10 @@
 <script>
-  window.location.href = "https://github.com/cognicue/media.cognicue.in";
+  const route = {
+    icons: "https://github.com/cognicue/media.cognicue.in/tree/master/icons",
+    logos: "https://github.com/cognicue/media.cognicue.in/tree/master/logos",
+    default: "https://github.com/cognicue/media.cognicue.in"
+  };
+  const pathname = window.location.pathname.slice(1);
+  const path = pathname.endsWith('/') ? pathname.slice(0, pathname.lenght-1) : pathname;
+  window.location.href = route[path] || route.default;
 </script>
